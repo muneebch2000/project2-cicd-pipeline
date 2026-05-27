@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return jsonify({"message": "CI/CD Pipeline with Flask!", "status" : "success"})
+    return jsonify({"message": "CI/CD Pipeline App", "status": "ok"})
 
 @app.route('/health')
 def health():
